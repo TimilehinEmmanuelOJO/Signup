@@ -11,8 +11,8 @@
 
     <div id="main-div">
         <div class="container">
+            <a href="login.html"><button class="in"> Log in</button></a>
             <button class="up">Sign Up</button>
-            <button class="in"> Log in</button>
         </div>
         <H1>
             Sign Up for Free
@@ -20,12 +20,16 @@
 
         <form action="" class="form">
             <div id="form-flex">
-                <input type="text" name="" id="inp1" value="First Name*" >
-                <input type="text" name="" id="inp1" value="Last Name*">
+                <input type="text" name="" id="inp1" placeholder="First Name*" required>
+                <input type="text" name="" id="inp1" placeholder="Last Name*" required>
             </div>
             <div class="form2">
-                <input type="email" name="" id="inp" value="Email Address*">
-            <input type="password" name="" id="inp" value="" placeholder="Set A Password">
+            <input type="email" name="" id="inp" placeholder="Email Address*" required>
+            <input type="password" name="" id="input" placeholder="Set A Password" required>
+            <div class="check">
+            <input type="checkbox" onclick="myFunction()">
+            <label for="checkbox" id="check">Show Password</label>
+            </div>
             <button type="submit">GET STARTED</button>
             </div>
         </form>

@@ -11,8 +11,8 @@
     
     <div id="main-div">
         <div class="container">
-            <button class="up">Sign Up</button>
             <button class="in"> Log in</button>
+            <a href="index.html"><button class="up">Sign Up</button></a>
         </div>
         <H1>
             Welcome Back!
@@ -21,9 +21,15 @@
         <form action="" class="form">
             
             <div class="form2">
-                <input type="email" name="" id="inp" value="Email Address*">
-            <input type="password" name="" id="inp" value="" placeholder="Set A Password">
+                <input type="email" name="" id="inp" placeholder="Email Address*" required>
+            <input type="password" name="" id="input" value="" placeholder="Set A Password" required>
+            <div class="check-div">
+            <div class="check">
+                <input type="checkbox" onclick="myFunction()">
+                <label for="checkbox">Show Password</label>
+                </div>
             <a href=""><h4>Forgot Password?</h4></a>
+            </div>
             <button type="submit">Log In</button>
             </div>
         </form>
